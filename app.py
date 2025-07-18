@@ -182,7 +182,7 @@ Welcome to your personal assistant! Ask me about:
 if st.button("🗑️ Clear Conversation", key="clear_btn", help="Clear all messages"):
     st.session_state.conversation = []
     st.session_state.show_goodbye = False
-    st.experimental_rerun()
+    st.rerun()
 
 # Display conversation
 chat_container = st.container()
@@ -244,4 +244,4 @@ if user_input:
         st.session_state.show_goodbye = True
     
     # Rerun to update the display
-    st.experimental_rerun()
+    st.rerun()
