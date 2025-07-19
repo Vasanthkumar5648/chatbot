@@ -2,7 +2,7 @@
 
 A conversational AI chatbot built with Python, NLTK, and Streamlit that can answer questions about budgeting, credit scores, and general topics.
 
-![Chatbot Demo](demo.gif) *(Replace with actual demo GIF if available)*
+![Chatbot Demo](demo.gif)
 
 ## Features
 
@@ -27,7 +27,9 @@ A conversational AI chatbot built with Python, NLTK, and Streamlit that can answ
 
 3. Install the required packages:
    ```bash
-`  pip install -r requirements.txt
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activ3ate
+
 
 4. Download NLTK data:
    ```bash
