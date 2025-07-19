@@ -6,7 +6,7 @@
 
 A conversational AI chatbot that provides financial advice and answers general questions using natural language processing.
 
-![Chatbot Demo](images/demo.jpg)
+![Chatbot Demo](./images/chatbot.jpg)
 
 ## Table of Contents
 - [Features](#-features)
