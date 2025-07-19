@@ -27,9 +27,7 @@ A conversational AI chatbot built with Python, NLTK, and Streamlit that can answ
 
 3. Install the required packages:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activ3ate
-
+   pip install -r requirements.txt
 
 4. Download NLTK data:
    ```bash
