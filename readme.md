@@ -19,3 +19,11 @@ A conversational AI chatbot built with Python, NLTK, and Streamlit that can answ
    ```bash
    git clone https://github.com/yourusername/smart-chatbot.git
    cd smart-chatbot
+
+2.Create and activate a virtual environment (recommended):
+ ```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
+
