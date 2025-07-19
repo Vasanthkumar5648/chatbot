@@ -29,7 +29,7 @@ A conversational AI chatbot that provides financial advice and answers general q
 - pip
 
 ### Steps
-#Clone the repository
+# Clone the repository
 git clone https://github.com/Vasanthkumar5648/chatbot.git
 cd smart-chatbot
 # Create and activate virtual environment
