@@ -1,40 +1,48 @@
-# 🤖 Smart Chatbot
+# 🤖 Smart Chatbot - Financial Assistant & General Helper
 
-A conversational AI chatbot built with Python, NLTK, and Streamlit that can answer questions about budgeting, credit scores, and general topics.
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-![Chatbot Demo](demo.gif)
+A conversational AI chatbot that provides financial advice and answers general questions using natural language processing.
 
-## Features
+![Chatbot Demo](assets/demo.gif)
 
-- 💬 Natural language processing for understanding user queries
-      * Processes user queries using NLTK and machine learning
-      * Recognizes intents with 90%+ accuracy (Logistic Regression classifier)
-- 🎯 Intent recognition with machine learning (Logistic Regression)
-- 💰 Financial advice on budgeting and credit scores
-- ✨ Interactive Streamlit web interface
-- 🎨 Custom chat bubble styling with avatars
-- 📱 Mobile-responsive design
+## Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Project Structure](#-project-structure)
+- [Examples](#-example-queries)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-## Installation
+## 🌟 Features
+- **Natural Language Understanding** using NLTK and scikit-learn
+- **Financial Guidance** on budgeting and credit scores
+- **Interactive Web Interface** built with Streamlit
+- **Easy Customization** through simple intent configuration
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/smart-chatbot.git
-   cd smart-chatbot
+## 🚀 Installation
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activ3ate
+### Prerequisites
+- Python 3.8+
+- pip
 
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/smart-chatbot.git
+cd smart-chatbot
 
-4. Download NLTK data:
-   ```bash
-   python -c "import nltk; nltk.download('punkt')"
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
+# Install dependencies
+pip install -r requirements.txt
 
-
-
+# Download NLTK data
+python -c "import nltk; nltk.download('punkt', download_dir='./nltk_data')"
