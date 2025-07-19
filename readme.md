@@ -21,9 +21,18 @@ A conversational AI chatbot built with Python, NLTK, and Streamlit that can answ
    cd smart-chatbot
 
 2.Create and activate a virtual environment (recommended):
- ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # On Windows use `venv\Scripts\activ3ate
+
+3.Install the required packages:
+  ```bash
+` pip install -r requirements.txt
+
+4.Download NLTK data:
+  ```bash
+  python -c "import nltk; nltk.download('punkt')"
+
 
 
 
