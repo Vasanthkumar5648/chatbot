@@ -30,7 +30,7 @@ A conversational AI chatbot that provides financial advice and answers general q
 
 ### Steps
 # Clone the repository
-git clone https://github.com/Vasanthkumar5648/chatbot.git
+git clone https://github.com/Vasanthkumar5648/chatbot/tree/main
 cd smart-chatbot
 # Create and activate virtual environment
 python -m venv venv
