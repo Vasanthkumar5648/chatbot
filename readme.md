@@ -6,17 +6,15 @@
 
 A conversational AI chatbot that provides financial advice and answers general questions using natural language processing.
 
-![Chatbot Demo](assets/demo.gif)
+![Chatbot Demo](images/demo.jpg)
 
 ## Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Configuration](#-configuration)
-- [Project Structure](#-project-structure)
 - [Examples](#-example-queries)
 - [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ## 🌟 Features
@@ -33,7 +31,7 @@ A conversational AI chatbot that provides financial advice and answers general q
 ### Steps
 '''bash
 #Clone the repository
-git clone https://github.com/yourusername/smart-chatbot.git
+git clone https://github.com/Vasanthkumar5648/chatbot.git
 cd smart-chatbot
 # Create and activate virtual environment
 python -m venv venv
@@ -84,12 +82,3 @@ Created with ❤️ by [Vasantha kumar]
 3. **Code Fences** - Properly formatted installation commands
 4. **Relative Paths** - Assets linked using relative paths for GitHub display
 5. **GitHub-Flavored Markdown** - Optimized for GitHub's renderer
-
-To complete setup:
-1. Replace `yourusername` with your GitHub username
-2. Add actual demo.gif to assets folder
-3. Include a LICENSE file in your repository
-4. Update author information at the bottom
-5. Add a .gitignore file for Python projects
-
-This format will display beautifully on GitHub and provide all necessary information for users and contributors.
