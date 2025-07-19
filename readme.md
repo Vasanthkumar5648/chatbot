@@ -7,6 +7,8 @@ A conversational AI chatbot built with Python, NLTK, and Streamlit that can answ
 ## Features
 
 - 💬 Natural language processing for understanding user queries
+      * Processes user queries using NLTK and machine learning
+      * Recognizes intents with 90%+ accuracy (Logistic Regression classifier)
 - 🎯 Intent recognition with machine learning (Logistic Regression)
 - 💰 Financial advice on budgeting and credit scores
 - ✨ Interactive Streamlit web interface
